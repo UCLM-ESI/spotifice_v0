@@ -2,7 +2,7 @@
 
 tmux new-session -d -s session
 
-mux set-option -g mouse on
+tmux set-option -g mouse on
 tmux setw -g monitor-activity on
 tmux set-option -g visual-activity on
 tmux bind-key x kill-session
